@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Get Time Slot</string>
+    <string name="title_text">GET TIME SLOT</string>
+    <string name="starting_text">An Initiative For Helping The Students</string>
+    <string name="faculty_text">Faculty</string>
+    <string name="student_text">Student</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">Log In</string>
+    <string name="or_text">or</string>
+    <string name="create_acc_text">Create Account</string>
+    <string name="employee_no_hint">Employee No</string>
+    <string name="name_hint">Name</string>
+    <string name="subject_hint">Subject</string>
+    <string name="scholar_no_hint">Scholar No</string>
+    <string name="department_text">Department:    </string>
+    <string name="timeFormat_text">Enter Time In 24 Hrs Format</string>
+    <string name="startingTime_text">"Start Time:   "</string>
+    <string name="endTime_text">"End Time:    "</string>
+    <string name="save_text">Save</string>
+    <string name="delete_text">Delete</string>
+    <string name="subject_text">"Subject:    "</string>
+    <string name="no_slot_text">Enter the slot by clicking on \"+\" icon</string>
+    <string name="no_slot_available_text">No Slot Available</string>
+    <string name="signout_text">Sign Out</string>
+    <string name="add_slot_text">Add Slot</string>
+    <string name="sure_text">Are You Sure?</string>
+    <string name="yes_text">YES</string>
+    <string name="np_text" />
+    <string name="no_text">NO</string>
+
+    <string-array name="department_array">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>Electrical</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+        <item>Chemical</item>
+    </string-array>
+</resources>

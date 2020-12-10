@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "38691867366",
+    "firebase_url": "https://get-time-slot.firebaseio.com",
+    "project_id": "get-time-slot",
+    "storage_bucket": "get-time-slot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38691867366:android:7965094380cf8728358927",
+        "android_client_info": {
+          "package_name": "com.example.gettimeslot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38691867366-448rqj02n307v40b4uh4q8gb7n0uaoub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gettimeslot",
+            "certificate_hash": "a64170edef6a2b6e0089916af489afb5df73e7b1"
+          }
+        },
+        {
+          "client_id": "38691867366-rjbbn7tooldrmd3tcplhf14jlpha22uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Gi0kXc6Drak5NHBmD-0Z7dHC8oWuoUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38691867366-rjbbn7tooldrmd3tcplhf14jlpha22uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

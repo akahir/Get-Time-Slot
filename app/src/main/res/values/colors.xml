@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/endGColor</color>
+    <color name="colorPrimaryDark">@color/endGColor</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="testColor">#2B43CC</color>
+    <color name="rowColor">#B8C4F4</color>
+    <color name="startGColor">#596CCF</color>
+    <color name="centerGColor">#5A92AC</color>
+    <color name="endGColor">#78B8C3</color>
+</resources>

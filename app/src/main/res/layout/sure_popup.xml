@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/popup_textView"
+            android:text="@string/sure_text"
+            android:textSize="35sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_yes_button"
+            android:text="@string/yes_text"
+            android:textSize="20sp"
+            android:background="@android:color/darker_gray"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"/>
+
+        <Button
+            android:id="@+id/popup_no_button"
+            android:text="@string/no_text"
+            android:textSize="20sp"
+            android:background="@android:color/darker_gray"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

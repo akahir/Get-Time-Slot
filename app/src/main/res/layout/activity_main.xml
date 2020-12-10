@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="@string/title_text"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="6dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:id="@+id/gratefulText"
+                android:text="@string/starting_text"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/facultyButton"
+        android:text="@string/faculty_text"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:layout_width="100dp"
+        android:layout_height="35dp"/>
+
+    <Button
+        android:id="@+id/studentButton"
+        android:text="@string/student_text"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:layout_width="100dp"
+        android:layout_height="35dp"/>
+
+
+</LinearLayout>
